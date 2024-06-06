@@ -136,15 +136,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#service {}
 
-#service {}
 #client-section {
     position: relative;
     height: 344px;
 }
 
-#client-section::before{
+#client-section::before {
     content: "";
     position: absolute;
     background: url('../image/pexa.jpg');
@@ -152,28 +150,32 @@
     height: 280px;
     z-index: -1;
     opacity: 0.7;
-   
- 
+
+
 }
-#contact-box{
-     display: flex;   
-     justify-content: center;
-     text-align: center;
-     padding-bottom: 30px;
-     
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+
 }
+
 #contact-box input,
-#contact-box textarea{
+#contact-box textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px rgb(186, 194, 186);
 }
-#contact-box form{
-    width : 40%;
+
+#contact-box form {
+    width: 40%;
 
 }
-footer{
+
+footer {
     text-align: center;
     background-color: black;
     color: aliceblue;
@@ -215,13 +217,16 @@ footer{
 .client-item {
     padding: 30px;
 }
+
 #clients img {
-   height: 100px;
+    height: 100px;
 }
-#contact{
+
+#contact {
     position: relative;
-    }
-    #Contact::before{
+}
+
+#Contact::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -230,9 +235,9 @@ footer{
     opacity: 0.7;
     background: url('../image/contect-Marketing.jpg') no-repeat center center/cover;
 
-  
-    }
-    
+
+}
+
 
 
 #client-section h1 {
@@ -245,6 +250,8 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
-   
-}
 
+}
+.sha{
+    left: 150px;
+}
