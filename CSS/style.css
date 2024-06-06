@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* css variabled */
+:root {
+
+    --navbar-height: 59px;
+
+}
+
+/* Navigation Bar  */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    background-color: rgb(153, 151, 151);
+    /* background-color: rgb(190, 190, 190); */
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(153, 151, 151);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Logo And Image  */
+#logo {
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    height: 49px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px rgb(218, 212, 212);
+    /* mix-blend-mode: color-burn; */
+
+}
+
+
+#navbar ul {
+    display: flex;
+}
+
+/* List Styling  */
+
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1.1rem
+}
+
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 8px 14px;
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(202, 199, 199);
+    background-color: white;
+}
+
+/* home dsection  */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 150px;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home ::before {
+    content: "";
+    position: absolute;
+    background: url(../image/burger.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#service {
+    margin: 34px;
+
+    display: flex;
+}
+
+#service .box {
+    border: 2px solid brown;
+    background-color: rgb(227, 222, 222);
+    border-radius: 16px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 6px 6px 6px rebeccapurple;
+
+}
+
+#service .box img {
+    height: 100px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+}
+
+#service .box p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#service {}
+
+#service {}
+#client-section {
+    position: relative;
+    height: 344px;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../image/pexa.jpg');
+    width: 100%;
+    height: 280px;
+    z-index: -1;
+    opacity: 0.7;
+   
+ 
+}
+#contact-box{
+     display: flex;   
+     justify-content: center;
+     text-align: center;
+     padding-bottom: 30px;
+     
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(186, 194, 186);
+}
+#contact-box form{
+    width : 40%;
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 18px;
+}
+
+.h-primary-center {
+    font-size: 2.8rem;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.h-secondary-center {
+    font-size: 2.3rem;
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.btn {
+    padding: 4px 15px;
+    border: 2px solid white;
+    background-color: brown;
+    margin: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.center {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.client-item {
+    padding: 30px;
+}
+#clients img {
+   height: 100px;
+}
+#contact{
+    position: relative;
+    }
+    #Contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../image/contect-Marketing.jpg') no-repeat center center/cover;
+
+  
+    }
+    
+
+
+#client-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#clients {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
